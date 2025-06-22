@@ -248,7 +248,7 @@ def draw_game():
         enemy.draw()
     hero.draw()
     screen.draw.text(f"Vida: {int(hero_health)}", topleft=(10, 10), fontsize=26, color="red")
-    screen.draw.text(f" [Pressione F para atacar]", topleft=(10, 500), fontsize=26, color="black")
+    screen.draw.text(f"[Pressione F para atacar]\n[Pressione as setas direcionais para mover o herói]", topleft=(10, 500), fontsize=26, color="white")
 
 def draw_victory():
     screen.fill((0, 0, 0))
